@@ -1,0 +1,525 @@
+.container {
+  background-image: linear-gradient(rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%);
+  font-family: Gilroy;
+  height: 2002px;
+  width: 1920px;
+  max-width: 1920px;
+  margin: 0px auto;
+}
+
+.header {
+  background-color: #FFFFFF;
+  grid-auto-flow: column;
+  height: 204px;
+  justify-content: start;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.05), inset 0px -5px 15px rgba(255, 255, 255, 0.44);
+}
+
+.logo {
+  align-content: start;
+}
+
+.img_logo {
+  margin-left: 300px;
+  margin-top: 33px;
+}
+
+.menu {
+  grid-auto-flow: column;
+  justify-content: start;
+}
+
+.catalog {
+  grid-auto-flow: column;
+  justify-content: start;
+  margin-left: 300px;
+  margin-top: 59px;
+  min-height: auto;
+  width: 88px;
+}
+
+.cat_t {
+  font-family: 'Gilroy';
+  color: rgb(79, 79, 79);
+  font-size: 18px;
+  font-weight: 500;
+  width: 69px;
+  line-height: 21px;
+}
+
+.arrow {
+  height: 6px;
+  margin-top: 7px;
+  width: 9px;
+  margin-left: 7px;
+  background-image: url(../../asset/image/evas.svg);
+}
+
+.proj_t {
+  font-family: 'Gilroy';
+  color: rgb(79, 79, 79);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-top: 59px;
+  line-height: 21px
+}
+
+.birds_t {
+  font-family: 'Gilroy';
+  color: rgb(79, 79, 79);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 14px;
+  margin-top: 137px;
+  line-height: 21px
+}
+
+.donat_t {
+  font-family: 'Gilroy';
+  color: rgb(79, 79, 79);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-top: 137px;
+  line-height: 21px
+}
+
+.connect {
+  align-content: start;
+}
+
+.tel_img {
+  grid-auto-flow: column;
+}
+
+.telefon {
+  margin-left: 536px;
+  margin-top: 44px;
+  width: 20px;
+}
+
+.tel_t {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 11px;
+  margin-top: 42px;
+  width: 128px;
+}
+
+.header_buy {
+  height: 20px;
+  margin-left: 80px;
+  margin-top: 36px;
+  min-height: auto;
+  width: 20px;
+  background-image: url(../../asset/image/2.svg);
+}
+
+.buy_style {
+  height: 25px;
+  width: 25px;
+  margin-left: 70px;
+  margin-top: -10px;
+  background-image: url(../../asset/image/buy.svg);
+}
+
+.user {
+  background-image: url("/asset/image/men.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 41px;
+  width: 30px;
+}
+
+.scales_block form {
+  position: relative;
+  width: 289px;
+  height: 54px;
+  margin-left: 4px;
+  background: #F9F9F9;
+  border: solid 1px #F9F9F9;
+  border-radius: 10px;
+}
+
+.search_t form {
+  left: 490px;
+  top: 30px;
+  position: relative;
+  width: 345px;
+  height: 54px;
+  margin-left: 4px;
+  background: #F9F9F9;
+  border: solid 1px #F9F9F9;
+  border-radius: 10px;
+}
+.search_t input, .search_t button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.search_t input {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.search_t button {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+  background-image: url(../../asset/image/search.svg);
+  background-repeat: no-repeat;
+}
+.search_t:before {
+  content: "\f002";
+  font-family: Gilroy;
+  font-size: 18px;
+  color: #F9F0DA;
+}
+
+.mix {
+  grid-auto-flow: column;
+  height: 96px;
+  justify-content: start;
+}
+
+.mix_t {
+  color: rgb(189, 189, 189);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 300px;
+  margin-top: 75px;
+  width: 69px;
+}
+
+.dot {
+  background-image: linear-gradient(rgb(189, 189, 189) 0%, rgb(189, 189, 189) 100%);
+  min-height: auto;
+  height: 6px;
+  align-content: start;
+  margin-left: 11px;
+  margin-top: 83px;
+  width: 6px;
+  background-image: url(../../asset/image/Ellipse\ 15.png);
+  background-repeat: no-repeat;
+}
+
+.good_t {
+  color: rgb(189, 189, 189);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 14px;
+  margin-top: 75px;
+}
+
+.back {
+  grid-auto-flow: column;
+  justify-content: start;
+  margin-left: 300px;
+  margin-top: 34px;
+}
+
+.arrow_back {
+  height: 18px;
+  width: 18px;
+  margin-top: 3px;
+  margin-left: 5px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(../../asset/image/Vector.svg);
+}
+
+.back_t {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.item {
+  grid-auto-flow: column;
+  height: 610px;
+  justify-content: start;
+  margin-left: 306px;
+  gap: 20px;
+}
+
+.feed {
+  align-content: start;
+  background-image: linear-gradient(rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%);
+  box-shadow: rgba(0, 0, 0, 0.05) 8px 8px 15px 0px, rgb(255, 255, 255) -8px -8px 15px 0px;
+  margin-top: 44px;
+  width: 315px;
+  border-radius: 20px;
+  border: 1px solid rgb(242, 242, 242);
+}
+
+.feed_img {
+  background-image: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 275px;
+  border-radius: 10px;
+}
+
+.podavan {
+  height: 227px;
+  width: 275px;
+}
+
+.name_feed {
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.feed_t {
+  color: rgb(51, 51, 51);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+}
+
+.feed_t2 {
+  color: rgb(130, 130, 130);
+  line-height: 21px;
+  margin-top: 5px;
+}
+
+.price_t {
+  color: rgb(51, 51, 51);
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.scales_block {
+  margin-left: 15px;
+}
+
+.radio {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 25px;
+  width: 67px;
+  height: 21px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration-color: #4F4F4F;
+}
+.radio input {
+  display: none;
+}
+.radio label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 18px;
+  line-height: 29px;
+}
+.radio input:checked + label {
+  background: white;
+  border: 1px solid rgb(62, 207, 94);
+  border-radius: 10px;
+}
+.radio label:hover {
+  color: #666;
+}
+
+/* Checked */
+/* Hover */
+.more_btn {
+  background-image: linear-gradient(rgb(63, 207, 94) 0%, rgb(63, 207, 94) 100%);
+  height: 45px;
+  margin-top: 25px;
+  width: 161px;
+  border-radius: 10px;
+  border: 1px solid rgba(5, 175, 52, 0.53);
+}
+.more_btn :active {
+  color: grey;
+}
+
+.buy_box:active {
+  background: #8f4bab;
+}
+
+.more_t {
+  align-content: start;
+  color: rgb(255, 255, 255);
+  width: 97px;
+  height: 21px;
+  padding: 10px 35px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.buy_box {
+  align-content: start;
+  height: 45px;
+  margin-left: 235px;
+  margin-top: -22px;
+  width: 46px;
+  border-radius: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  background-image: url(../../asset/image/Rectangle\ 375.svg);
+}
+
+.new {
+  text-align: center;
+  align-content: space-around;
+  background-image: linear-gradient(rgb(51, 51, 51) 0%, rgb(51, 51, 51) 100%);
+  height: 35px;
+  position: absolute;
+  margin-left: 212px;
+  margin-top: 12px;
+  width: 89px;
+  border-radius: 10px;
+}
+
+.new_t {
+  color: rgb(255, 255, 255);
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.slayder {
+  grid-auto-flow: column;
+  width: 155px;
+  gap: 22px;
+  margin-top: 53px;
+  margin-left: 885px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.vector_sl1 {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../asset/image/arrow3.png);
+}
+
+.slayder_t1 {
+  color: rgb(33, 150, 83);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  width: 11px;
+}
+
+.slayder_t2, .slayder_t3 {
+  color: rgb(130, 130, 130);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  width: 11px;
+}
+
+.vector_sl2 {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../asset/image/arow.png);
+}
+
+.footer {
+  height: 255px;
+  display: flex;
+  position: relative;
+  max-width: 1920px;
+  background: #333333;
+}
+
+.tel_2 {
+  top: 102px;
+  left: 1461px;
+  display: flex;
+  position: absolute;
+}
+
+.tel_2_t {
+  color: white;
+  height: auto;
+  font-size: 18px;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 21px;
+}
+
+.carbonphone {
+  width: 24px;
+  height: 24px;
+  margin-right: 11px;
+  background-image: url(../../asset/image/fector.png);
+  background-repeat: no-repeat;
+}
+
+.social {
+  top: 100px;
+  left: 925px;
+  display: flex;
+  position: absolute;
+}
+
+.vk {
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.inst {
+  left: 45px;
+  width: 25px;
+  height: 25px;
+  box-sizing: border-box;
+}
+
+.cash {
+  top: 102px;
+  left: 300px;
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 18px;
+  font-style: normal;
+  font-family: Gilroy;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  line-height: 21px;
+}
+
+.delivery {
+  top: 102px;
+  left: 412px;
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 18px;
+  font-family: Gilroy;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  line-height: 21px;
+}
